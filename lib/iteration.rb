@@ -48,14 +48,12 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   
-  ti = []
   qp = 0 
   while qp < src.count do 
     if src[qp][0]% 2 == 0 && src[qp][1] % 2 == 0 
       wip = src[qp][0] + src[qp][1]
-      ti << wip
   end
   qp += 1
 end 
-return ti 
+return wip 
 end
