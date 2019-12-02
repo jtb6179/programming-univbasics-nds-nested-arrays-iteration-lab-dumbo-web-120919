@@ -53,8 +53,7 @@ def total_even_pairs(src)
   while qp < src.count do 
     if src[qp][0]% 2 == 0 && src[qp][1] % 2 == 0 
       wip = src[qp][0] + src[qp][1]
-      ti << wip 
-   
+      ti << wip
   end
   qp += 1
 end 
