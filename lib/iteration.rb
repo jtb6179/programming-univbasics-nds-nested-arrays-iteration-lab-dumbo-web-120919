@@ -51,5 +51,5 @@ def total_even_pairs(src)
   ti = []
   qp = 0 
   while qp < src.count do 
-    if int 
+    if src[qp][0] 
 end
