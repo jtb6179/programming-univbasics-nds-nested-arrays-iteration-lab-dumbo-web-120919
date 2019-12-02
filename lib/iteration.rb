@@ -56,5 +56,6 @@ def total_even_pairs(src)
     elsif src[qp][0] % 2 == 0
     ti << src[qp][0] 
     
+    
       
 end
