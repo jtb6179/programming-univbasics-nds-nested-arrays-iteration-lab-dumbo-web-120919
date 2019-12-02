@@ -26,17 +26,12 @@ def find_greater_pair(src)
 u = 0 
 fix = []
 while u < src.length do 
-  t = 0 
-  ty = []
-  while t < src[u].length do 
-    if  src[u][t][0] > src[u][t][1]
-      ty << src[u][t][0]
+ 
+    if  src[u][0] > src[u][1]
+      fix << src[u][0]
     else 
-      ty << src[u][t][1]
+      fix << src[u][1]
     end
-    t += 1 
-  end 
-  fix << ty
   u += 1
 end 
 
